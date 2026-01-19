@@ -19,3 +19,6 @@ def main():
                 print(f"File '{sys.argv[1]}.txt' has been created with content {textLines}.")
     else:
         print("Invalid filename.")
+
+if __name__ == "__main__":
+    main()
